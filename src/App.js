@@ -6,7 +6,7 @@ function App() {
   const [word, setWord] = useState("");
   // const API_URL = "https://api.datamuse.com/words?rel_syn=";
   // const API_URL = "http://127.0.0.1:8080/words?rel_syn=";
-  const API_URL = "https://honest-garlics-brake-174-170-171-75.loca.lt/words?rel_syn=";
+  const API_URL =  "https://honest-garlics-brake-174-170-171-75.loca.lt/words?rel_syn=";
   const [result, setResult] = useState([]);
 
   function handleChange(e) {
